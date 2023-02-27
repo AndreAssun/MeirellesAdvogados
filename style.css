@@ -5,18 +5,17 @@
   font-family: "poppins";
   
 }
-img{
-  max-width: 40px;
-}
+
  header{
   display: flex;
   background-color: #181B2A;
   color: white;
   justify-content: space-around;
-  width: 100%;
+  width: 1700;
   height: 100px;
   align-items: center;
   line-height: 30px;
+  margin: 0 auto;
   
  }
  .logo{
@@ -34,7 +33,7 @@ img{
  .contato h3{
   font-size: 14px;
  }
- ul{
+ul{
   list-style: none;
   margin-right: 43px;
   
@@ -122,6 +121,7 @@ button{
   border-radius: 5px;
   outline: none;
   border: none;
+  
 }
 
 label{
@@ -223,11 +223,11 @@ input{
 .quote-externo {  /* citação */
   max-width: 600px;
   margin: 0 auto; 
-  margin-bottom: 40px;
   text-align: center;
   font-weight: 100px;
   align-items: center;
   padding-top: 60px;
+  align-items: center;
 }
 
 
@@ -245,6 +245,8 @@ input{
   font-weight: 500;
   font-size: 14px;
   letter-spacing: .1em;
+  text-align: justify;
+  
 }
 
 .quote-externo p {  
@@ -252,5 +254,104 @@ input{
   font-weight: lighter;
   color: #3a3d4adc;
   margin-bottom: 30px;
+  
 }
+.sessao_time{
+  background-color: #181B2A;
+  display: grid;
+}
+
+.div_time{
+  width: 90%;
+  height: 441px;
+  display: flex;
+  color: white;
+  padding: 100px;
+  margin: 0 auto;
+  padding: 50px;
+  
+  
+  
+}
+
+
+
+.div_time button{
+  
+  background-color: #CCA621;
+  color: rgba(255, 255, 255, 0.69);
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 400px;
+  text-transform: uppercase;
+
+ 
+  
+  
+  
+  
+}
+
+.div_time img{
+  max-width: 510px;
+
+
+}
+
+
+.div_time h3{
+  color: #CCA621;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.conteudo-text{
+  margin-left: 90px;
+  
+  
+}
+.conteudo-text p{
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 300;
+  text-align: justify;
+  width: 100%;
+  
+
+}
+
+
+
+
+.sessao_contato{
+  background-color: #d8d8d8;
+  
+
+}
+.div_contato{
+  color: #000000;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  padding: 50px;
+  
+}
+.mapa{
+  max-width: 300px ;
+}
+
+
+
+
+
+
+
+
+
+
+
 
