@@ -4,6 +4,19 @@
   box-sizing: border-box;
   font-family: "poppins";
   
+
+}
+.js [data-anime] {
+  opacity: 0;
+}
+.js .fadeinDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime{
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }
 
  header{
@@ -231,29 +244,28 @@ input{
 }
 
 
-.quote-externo cite::before, .quote-externo cite::after {   /* elemento EM ESTILO criado antes do p com :before e :after */
+cite::before, cite::after {   /* elemento EM ESTILO criado antes do p com :before e :after */
   content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
   display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
   width: 90px;
   height: 3px;
   background-color: #000000;
-  margin: 10px auto 10px auto;
+  margin: 20px auto 20px auto;
 }
 
-.quote-externo cite { 
-  font-style: italic;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: .1em;
-  text-align: justify;
-  
-}
 
+
+blockquote{
+  text-align: center;
+}
 .quote-externo p {  
   font-style: italic;
   font-weight: lighter;
   color: #3a3d4adc;
   margin-bottom: 30px;
+  text-align: center;
+  
+  
   
 }
 .sessao_time{

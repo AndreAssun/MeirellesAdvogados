@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -34,8 +35,8 @@
     <section class="main-menu">
       <div class="main-form">
         <div>
-          <h2 >Um novo conceito <br> de <span>jurisdição.</span></h2>
-          <p>A <span>Meirelles Advogados</span> foi idealizada visando proporcionar <br> um atendimento personalizado, preventivo, estratégico <br> e contencioso em todas as áreas do Direito Empresarial.</p>
+          <h2 data-anime="200" >Um novo conceito <br> de <span>jurisdição.</span></h2>
+          <p data-anime="400" >A <span>Meirelles Advogados</span> foi idealizada visando proporcionar <br> um atendimento personalizado, preventivo, estratégico <br> e contencioso em todas as áreas do Direito Empresarial.</p>
         </div>
         <div>
           <form action="">
@@ -53,12 +54,12 @@
       </div>
     </section>
 
-    <section>
+    <section class="init-hidden">
       <div class="casos-ajudar">
-        <h2>Casos que <span>podemos</span> ajudar</h2>
+        <h2 data-anime="600" >Casos que <span>podemos</span> ajudar</h2>
       </div>
     </section>
-    <section class="qualidade" id="qualidade">
+    <section class="qualidade" id="qualidade" data-anime="600" >
       <div class="qualidade-item">
         <h2>LGPD</h2>
         <p>Treinamento funcional, simples e fácil para que os seus colaboradores estejam por dentro dos princípios que enquadram LGDP
@@ -99,7 +100,7 @@
     <section class="introducao">
       <div>
         <blockquote>
-          <p class="fadeInDown quote-externo">“A Meirelles Advogados foi projetado com base em um alicerce fundamental,
+          <p class="quote-externo">“A Meirelles Advogados foi projetado com base em um alicerce fundamental,
             um pilar indispensável de "trazer o cliente para perto,
             proporcionando uma experiência satisfatória única.”</p>
           <cite>Rodrigo Meirelles - Sócio fundador.</cite>
@@ -146,8 +147,12 @@
 
 
   </main>
+
+
+  
   <script src="./js/simple-anime.js"></script>
   <script src="./js/script.js"></script>
+ 
 
 
 
