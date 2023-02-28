@@ -31,12 +31,28 @@
   margin: 0 auto;
   
  }
+ 
+
+ .espaco-logo{
+  display: flex;
+  align-items: center;
+ 
+ }
+ .espaco-logo img{
+  width: 70px;
+  padding: 7px;
+  margin-top: 7px;
+  
+ }
  .logo{
   display: flex;
   align-items: center;
   letter-spacing: 2px;
  }
 
+ header h3{
+   padding-left: 50px;
+ }
 
 .contato{
   display: flex;
@@ -124,26 +140,31 @@ h3{
   width: 447px;
   font-weight: lighter;
   text-align: center;
+  
 }
 
 button{
   margin-top: 15px;
-  background-color: #CCA621;
+  background-color: #967b1a;
   color: rgba(255, 255, 255, 0.69);
   height: 50px;
   border-radius: 5px;
   outline: none;
   border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   
 }
-
+button:hover{
+  background-color: #a7881c;
+}
 label{
   padding-top: 18px;
   
   
 }
 input{
-  padding: 5px 0;
+  padding: 5px ;
   outline: none;
   height: 46px;
   
@@ -290,7 +311,7 @@ blockquote{
 
 .div_time button{
   
-  background-color: #CCA621;
+  background-color: #967b1a;
   color: rgba(255, 255, 255, 0.69);
   height: 50px;
   border-radius: 5px;
@@ -300,12 +321,12 @@ blockquote{
   text-transform: uppercase;
 
  
-  
-  
-  
-  
 }
 
+.div_time button:hover{
+  background-color: #a7881c;
+  
+}
 .div_time img{
   max-width: 510px;
 
