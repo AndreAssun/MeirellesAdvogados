@@ -21,11 +21,16 @@
 }
 
  header{
+  width: 100%;
+  background-color: #181B2A;
+ }
+
+ .sessao_header{
   display: flex;
   background-color: #181B2A;
   color: white;
   justify-content: space-around;
-  width: 1700;
+  width: 1500px;
   height: 100px;
   align-items: center;
   line-height: 30px;
@@ -117,6 +122,7 @@ ul li{
   font-weight: 500;
   font-style: italic;
   color: #CCA621;
+  letter-spacing: 1px;
 }
 .main-form{
   display: flex;
@@ -159,6 +165,7 @@ h3{
   border: none;
   text-transform: uppercase;
   letter-spacing: 1px;
+  cursor: pointer;
   
 }
 button:hover{
@@ -184,6 +191,7 @@ input{
 .casos-ajudar{
   text-align: center;
   margin-top: 60px;
+  position: relative;
   
 }
 
@@ -195,7 +203,7 @@ input{
   background-color: #CCA621;
   margin: 7px 0;
   position: absolute;
-  left: 800px;
+  left: 50%;
   
 }
 
@@ -298,16 +306,18 @@ blockquote{
 .sessao_time{
   background-color: #181B2A;
   display: grid;
+  width: 100%;
+  height: 441px;
 }
 
 .div_time{
-  width: 90%;
-  height: 441px;
+  width: 1200px;
   display: flex;
   color: white;
   padding: 100px;
   margin: 0 auto;
   padding: 50px;
+  
   
   
   
@@ -325,6 +335,8 @@ blockquote{
   border: none;
   width: 400px;
   text-transform: uppercase;
+  margin-top: 25px;
+  cursor: pointer;
 
  
 }
@@ -343,7 +355,7 @@ blockquote{
 .div_time h3{
   color: #CCA621;
   text-align: left;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   width: 100%;
 }
@@ -352,17 +364,41 @@ blockquote{
   margin-left: 90px;
   
   
+  
 }
+
+
+.conteudo-text h2{
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+}
+
+.conteudo-text span{
+  font-style: italic;
+  font-weight: lighter;
+  position: relative;
+}
+
 .conteudo-text p{
-  font-size: 20px;
-  margin-top: 20px;
+  margin-top: 12px;
   font-weight: 300;
   text-align: justify;
   width: 100%;
+  font-size: 1em;
+  line-height: 1.7;
+  
+  
   
 
 }
 
+.sessao_time img{
+  width: 500px;
+  border: solid 5px white;
+
+}
 
 
 
@@ -379,19 +415,19 @@ blockquote{
   padding: 50px;
   
 }
-.mapa{
-  max-width: 300px ;
-}
-
-
-
-
 
 .newsletter {
-  background-color:#F7F5F7;
-  padding: 60px calc((100% - 960px) / 2 );
+  
+  padding: 70px ;
   display: flex;
   flex-wrap: wrap;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.newsletter-sessao{
+  background-color:#F7F5F7;
+
 }
 
 .newsletter-info {
@@ -426,54 +462,66 @@ blockquote{
   color: #7c7c7c;
   font-style: italic;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
-  border:3px solid #967b1a;
+  border:3px solid #181B2A;
   background: transparent;
   padding: 10px;
   margin: 0px;
   border-radius: 0px;
+  width: 300px;
 }
 
 .newsletter-form button{
   flex: 1 1 260px;
   font-size: 15px;
   font-weight: 200;
-  background-color: #967b1a;
+  background-color: #181B2A;
   color: white;
   margin:0px;
   cursor: pointer;
   text-transform: uppercase;
   border: 0px;
   letter-spacing: 2px;
+  height: 50px;
+  border-radius: 0px 0px 5px 5px;
   
   
   
 }
 
 .newsletter-form button:hover{
-  background-color: #a7881c;
+  background-color: #343a58;
   color: white;
 }
 
-
-
-
-.footer{
+footer{
+  width: 100%;
   background-color: #181B2A;
-  display: flex;
-  text-align: center;
-  text-align: center;
+  
 }
 
-.footer p {
+
+.sessao-footer{
+  background-color: #181B2A;
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  justify-content: space-around;
+  text-align: center;
+  
+  
+}
+
+.sessao-footer p {
   align-items: center;
   color:#ffffff;
   text-align: center;
   height: 70px;
   padding: 20px;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 auto;
 }
+
 
 
 

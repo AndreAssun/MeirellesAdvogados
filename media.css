@@ -1,0 +1,22 @@
+@media screen and (max-width: 760px){
+
+  header{
+    width: 100%;
+    background-color: #181B2A;
+   }
+ 
+  .sessao_header{
+    width: 100% ;
+    background-color: #181B2A;
+    
+    
+  }
+  .sessao_header .contato{
+    display: none;
+  }
+
+ 
+  
+
+  
+}
