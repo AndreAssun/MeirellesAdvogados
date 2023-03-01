@@ -129,7 +129,7 @@ ul li{
   font-size: 17px;
 }
 
-form{
+.main-menu form {
   background-color: #00000069;
   padding: 20px;
   height: 426px;
@@ -149,7 +149,7 @@ h3{
   
 }
 
-button{
+.main-menu button{
   margin-top: 15px;
   background-color: #967b1a;
   color: rgba(255, 255, 255, 0.69);
@@ -383,6 +383,10 @@ blockquote{
   max-width: 300px ;
 }
 
+
+
+
+
 .newsletter {
   background-color:#F7F5F7;
   padding: 60px calc((100% - 960px) / 2 );
@@ -408,6 +412,49 @@ blockquote{
   
 }
 
+.newsletter-form {
+  flex: 2 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input{
+  flex: 3 1 260px;
+  font-size: 1.25em;
+  color: #7c7c7c;
+  font-style: italic;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  border:3px solid #967b1a;
+  background: transparent;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px;
+}
+
+.newsletter-form button{
+  flex: 1 1 260px;
+  font-size: 15px;
+  font-weight: 200;
+  background-color: #967b1a;
+  color: white;
+  margin:0px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0px;
+  letter-spacing: 2px;
+  
+  
+  
+}
+
+.newsletter-form button:hover{
+  background-color: #a7881c;
+  color: white;
+}
+
+
 
 
 .footer{
@@ -427,6 +474,8 @@ blockquote{
   font-size: 14px;
   margin: 0 auto;
 }
+
+
 
 
 
