@@ -1,4 +1,4 @@
-@media screen and (max-width: 760px){
+@media screen and (max-width: 1240px){
 
   header{
     width: 100%;
@@ -18,7 +18,7 @@
   .main-menu{
     
     color: rgb(255, 255, 255);
-    background-image: url(img/arranjo-do-conceito-de-verdade-com-equilibrio\ \(1\).jpg);
+    background-image: url(img.adv/arranjo-do-conceito-de-verdade-com-equilibrio\ \(1\).jpg);
     height: 784px;
     background-color:#F7F5F7;
     
@@ -197,6 +197,7 @@
     justify-content: space-around;
     text-align: center;
     flex-direction: column;
+    padding: 10px;
     
     
 
@@ -236,6 +237,10 @@
     
   }
 
+  .conteudo-text{
+    padding: 50px;
+  }
+
   .casos-ajudar{
     font-size: 12px;
   }
@@ -255,7 +260,7 @@
 
   .novo_conceito{
     padding-top: 1px;
-    width: 200px;
+    width: 264px;
     margin: 0 auto;
     padding-top: 20px;
   }
