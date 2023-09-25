@@ -89,8 +89,8 @@ ul li{
 }
 
 .main-menu{
-  background-image: linear-gradient(to bottom, transparent 0%, #3f3f3f29 50%), url(img/corretor-profissional.jpg);
-  background-size: cover;
+  background-image: linear-gradient(to bottom, transparent 0%, #3f3f3f29 50%), url(img/jovem-empresario-bem-sucedido-corrigindo-o-laco.png);
+  background-size:cover;
   position: relative;
   width: 100%;
   height: 80vh;
@@ -99,6 +99,14 @@ ul li{
   margin: 0 auto;
   
 }
+
+.novo_conceito{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
 
 
 .main-menu h2{
@@ -128,9 +136,9 @@ ul li{
 }
 .main-form{
   display: flex;
-  width: 1300px;
+  width: 95%;
   margin: 0 auto;
-  padding-top:120px;
+  padding-top: 0%;
   
 }
 .main-form p{
@@ -450,6 +458,7 @@ h3{
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
+  width: 450px;
   
 }
 button:hover{
@@ -575,6 +584,8 @@ footer{
   font-size: 12px;
  
 }
+
+
 
 
 
