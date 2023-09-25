@@ -97,6 +97,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
+    width: 250px;
     
   }
   label{
@@ -301,6 +302,7 @@
     top: 95%
     
   }
+  
 
   .section-ajudar{
     margin-top: 901px;

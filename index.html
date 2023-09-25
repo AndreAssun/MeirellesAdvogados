@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
-  <script>document.documentElement.classList.add("js");</script>
+  
 </head>
 
 <body>
@@ -140,28 +140,33 @@
       </div>
     </section>
 
-    <section class="main-menu">
-      <div class="main-form">
-        <div class="novo_conceito">
-          <h2 data-anime="200" >Um novo conceito  de <span>jurisdição.</span></h2>
-          <p data-anime="400" >A <span>Meirelles Advogados</span> foi idealizada visando proporcionar <br> um atendimento personalizado, preventivo, estratégico <br> e contencioso em todas as áreas do Direito Empresarial.</p>
-        </div>
-        <div>
-          <form class="formulario" action="captacao-email.php"  id="formulario-top">
-            <h3>PREENCHA E GANHE UMA CONSULTA DE CASO</h3>
-            <form method="POST" action="enviar-sendgrid.php" id="form_contato   "class="contato_form grid-8 formphp" >
-              <label for="nome" >Nome Completo*</label>
-              <input type="text" id="nome" name="nome" required>
-              <label for="email">E-mail*</label>
-              <input type="email" name="email" required>
-              <label for="telefone">Número de telefone</label>
-              <input type="text" id="telefone" name="telefone">
-              <button id="">Solicitar consulta <strong><em>grátis</em></strong></button>
-            </form>
-        </div>
+    <section class="section-form">
+      <div class="form-text">
+        <h1>Buscando sempre inovar mas mantendo bons costumes e boas práticas de Jurisdição</h1>
+        <h2>"Nosso escritório de advocacia é a escolha ideal para atender às suas necessidades legais. Com uma equipe de advogados altamente qualificados e experientes em uma ampla gama de áreas do direito, oferecemos soluções jurídicas personalizadas e eficazes para nossos clientes. </h2>
       </div>
-    </section>
 
+      <div>
+        <form class="form">
+          <span class="signup">Ganhe uma consulta</span>
+          <input type="text" placeholder="Nome" class="form--input">
+          <input type="email" placeholder="Email" class="form--input">
+          <input type="email" placeholder="Confirme o email" class="form--input">
+          
+          <div class="form--marketing">
+              <input id="okayToEmail" type="checkbox">
+              <label for="okayToEmail" class="checkbox">
+                Concordo em receber o contato
+              </label>
+          </div>
+          <button class="form--submit">
+              Sign up
+          </button>
+      </form>
+
+      </div>
+
+    </section>
     
 
 
@@ -195,7 +200,7 @@
     </div>
   </footer>
 
-
+  <script>document.documentElement.classList.add("js");</script>
   <script src="./js/simple-anime.js"></script>
   <script src="./js/script.js"></script>
  
