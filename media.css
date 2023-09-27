@@ -551,6 +551,12 @@
     width: 300px;
   }
 
+  .cards-profissionais h2{
+    font-weight: 600;
+    margin-bottom: 0px;
+    
+  }
+
   
 }
 
@@ -563,6 +569,8 @@
     text-align: center;
     margin-top: 50px;
 }
+
+
 
 .quote-externo{
   
