@@ -20,11 +20,13 @@
     color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom, transparent 0%, #3f3f3fbd 50%), url(img/mobile-case.png);
     background-size: cover;
-    height: 784px;
+    height: 600px;
     background-color:#F7F5F7;
-    
 
+  }
 
+  .section-cards{
+    top: 80%;
   }
  
 
@@ -235,11 +237,15 @@
 
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1320px){
 
   .card-main{
     width: 250px;
     height: 250px;
+  }
+
+  .novo_conceito h2{
+    width: 90%;
   }
   
 
@@ -441,7 +447,7 @@
     height: 200px;
     margin: 0 auto;
     position: absolute;
-    top: 95%
+    top: 90%
     
   }
   
@@ -450,15 +456,28 @@
     margin-top: 901px;
   }
 
+  .novo_conceito{
+    margin-top: 0px;
+  }
+
 }
 
+
+@media screen and (max-width: 458px){
+
+  .novo_conceito{
+    gap: 0px;
+  }
+
+
+}
 
 @media screen and (max-width: 394px){
 
   
 
   .main-menu{
-    height: 70vh;
+    height: 81vh;
   }
   
 
@@ -467,7 +486,7 @@
     height: 200px;
     margin: 0 auto;
     position: absolute;
-    top: 75%
+    top: 88%
     
   }
 
