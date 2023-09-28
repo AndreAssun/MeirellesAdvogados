@@ -28,7 +28,7 @@
   }
 
   .section-cards{
-    top: 65%;
+    top: 85%;
   }
  
 
@@ -265,7 +265,7 @@
     height: 200px;
     margin: 0 auto;
     position: absolute;
-    top: 65%
+    top: 85%
     
   }
 
@@ -376,7 +376,7 @@
     height: 200px;
     margin: 0 auto;
     position: absolute;
-    top: 65%
+    top: 85%
     
   }
 
@@ -449,7 +449,7 @@
     height: 200px;
     margin: 0 auto;
     position: absolute;
-    top: 70%
+    top: 93%
     
   }
   
@@ -483,16 +483,16 @@
   
 
   .main-menu{
-    height: 65vh;
+    height: 77vh;
   }
   
 
   .section-cards{
     width: 100%;
-    height: 200px;
+    height: 250px;
     margin: 0 auto;
     position: absolute;
-    top: 65%
+    top: 83%
     
   }
 
